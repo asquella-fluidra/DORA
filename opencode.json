@@ -1,0 +1,19 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": [
+    "docs/governance/rules.md",
+    "docs/governance/quality-gates.md",
+    "docs/governance/cdk-conventions.md",
+    "docs/governance/clean-architecture-ddd.md"
+  ],
+  "permission": {
+    "skill": {
+      "*": "ask",
+      "etl-*": "allow",
+      "infra-*": "ask",
+      "glue-*": "ask",
+      "domain-*": "ask",
+      "internal-*": "deny"
+    }
+  }
+}
