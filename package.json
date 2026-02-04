@@ -1,0 +1,44 @@
+{
+  "name": "dora-etl-dashboard",
+  "version": "1.0.0",
+  "description": "B2B ETL Dashboard with DORA metrics",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": [
+    "dora",
+    "etl",
+    "dashboard"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@aws-sdk/client-s3": "^3.500.0",
+    "@eslint/js": "^9.39.2",
+    "@types/node": "^20.11.0",
+    "@typescript-eslint/eslint-plugin": "^8.54.0",
+    "@typescript-eslint/parser": "^8.54.0",
+    "@vitest/coverage-v8": "^4.0.18",
+    "eslint": "^9.39.2",
+    "typescript": "^5.3.3",
+    "vitest": "^4.0.18",
+    "zod": "^4.3.6"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asquella-fluidra/DORA.git"
+  },
+  "bugs": {
+    "url": "https://github.com/asquella-fluidra/DORA/issues"
+  },
+  "homepage": "https://github.com/asquella-fluidra/DORA#readme"
+}

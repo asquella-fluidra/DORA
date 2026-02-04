@@ -1,0 +1,59 @@
+{
+  "startAt": 0,
+  "maxResults": 3,
+  "total": 3,
+  "issues": [
+    {
+      "key": "DORA-101",
+      "fields": {
+        "summary": "Fix authentication bug in login page",
+        "status": {
+          "name": "Done"
+        },
+        "created": "2024-01-10T09:00:00.000Z",
+        "updated": "2024-01-15T14:30:00.000Z",
+        "resolutiondate": "2024-01-15T14:30:00.000Z",
+        "priority": {
+          "name": "High"
+        },
+        "issuetype": {
+          "name": "Bug"
+        }
+      }
+    },
+    {
+      "key": "DORA-102",
+      "fields": {
+        "summary": "Add user profile page",
+        "status": {
+          "name": "In Progress"
+        },
+        "created": "2024-01-12T10:00:00.000Z",
+        "updated": "2024-01-15T16:00:00.000Z",
+        "priority": {
+          "name": "Medium"
+        },
+        "issuetype": {
+          "name": "Story"
+        }
+      }
+    },
+    {
+      "key": "DORA-103",
+      "fields": {
+        "summary": "Performance optimization for dashboard",
+        "status": {
+          "name": "To Do"
+        },
+        "created": "2024-01-14T11:00:00.000Z",
+        "updated": "2024-01-14T11:00:00.000Z",
+        "priority": {
+          "name": "Low"
+        },
+        "issuetype": {
+          "name": "Task"
+        }
+      }
+    }
+  ]
+}
