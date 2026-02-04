@@ -23,7 +23,7 @@ export default [
     },
     rules: {
       ...tseslint.configs.recommended.rules,
-      '@typescript-eslint/no-unused-vars': ['error', { 
+      '@typescript-eslint/no-unused-vars': ['error', {
         argsIgnorePattern: '^_',
         varsIgnorePattern: '^_',
       }],
@@ -34,6 +34,18 @@ export default [
       '@typescript-eslint/no-misused-promises': 'error',
       'no-console': ['warn', { allow: ['warn', 'error'] }],
       'no-undef': 'off',
+    },
+  },
+  {
+    files: ['src/handlers/**', 'tests/**'],
+    rules: {
+      'no-console': ['warn', { allow: ['warn', 'error', 'info'] }],
+    },
+  },
+  {
+    files: ['tests/infra/**/*.ts'],
+    rules: {
+      '@typescript-eslint/no-explicit-any': 'off',
     },
   },
   {
