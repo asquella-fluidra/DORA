@@ -11,6 +11,8 @@ export declare class AnalyticsStack extends cdk.Stack {
     private createGlueDatabase;
     private createCrawlerRole;
     private createCrawler;
+    private createKpiJob;
+    private createKpiCrawler;
     private createAthenaWorkGroup;
 }
 //# sourceMappingURL=analytics-stack.d.ts.map
