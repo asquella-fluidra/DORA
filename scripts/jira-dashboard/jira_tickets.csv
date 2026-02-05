@@ -1,0 +1,15 @@
+key,summary,status,type,priority,assignee,sprint,created_at,updated_at,resolved_at,cycle_time_hours
+JIRA-101,Fix login authentication bug,Done,Bug,High,Alice,Sprint 1,2026-01-01T09:00:00Z,2026-01-03T17:00:00Z,2026-01-03T17:00:00Z,64.0
+JIRA-102,Add user profile page,Done,Story,Medium,Bob,Sprint 1,2026-01-02T10:00:00Z,2026-01-04T16:00:00Z,2026-01-04T16:00:00Z,54.0
+JIRA-103,Update CSS styling,Done,Task,Low,Charlie,Sprint 1,2026-01-03T11:00:00Z,2026-01-05T14:00:00Z,2026-01-05T14:00:00Z,51.0
+JIRA-104,API endpoint optimization,Done,Story,High,Alice,Sprint 1,2026-01-04T09:00:00Z,2026-01-06T18:00:00Z,2026-01-06T18:00:00Z,57.0
+JIRA-201,Implement search functionality,Done,Story,High,Bob,Sprint 2,2026-01-08T09:00:00Z,2026-01-10T17:00:00Z,2026-01-10T17:00:00Z,56.0
+JIRA-202,Fix navigation menu bug,Done,Bug,Critical,Charlie,Sprint 2,2026-01-09T10:00:00Z,2026-01-10T14:00:00Z,2026-01-10T14:00:00Z,28.0
+JIRA-203,Add dark mode support,Done,Story,Medium,Alice,Sprint 2,2026-01-10T11:00:00Z,2026-01-13T16:00:00Z,2026-01-13T16:00:00Z,77.0
+JIRA-204,Performance optimization,Done,Task,Medium,Bob,Sprint 2,2026-01-11T09:00:00Z,2026-01-14T18:00:00Z,2026-01-14T18:00:00Z,81.0
+JIRA-205,Mobile responsive design,Done,Story,High,Charlie,Sprint 2,2026-01-12T10:00:00Z,2026-01-15T17:00:00Z,2026-01-15T17:00:00Z,79.0
+JIRA-301,Implement notifications system,In Progress,Story,High,Alice,Sprint 3,2026-01-16T09:00:00Z,2026-01-20T14:00:00Z,,0.0
+JIRA-302,Add file upload feature,In Progress,Story,Medium,Bob,Sprint 3,2026-01-17T10:00:00Z,2026-01-21T16:00:00Z,,0.0
+JIRA-303,Create user settings page,To Do,Story,Low,Charlie,Sprint 3,2026-01-18T11:00:00Z,2026-01-18T11:00:00Z,,0.0
+JIRA-304,Add export to CSV,To Do,Task,Low,Alice,Sprint 3,2026-01-19T09:00:00Z,2026-01-19T09:00:00Z,,0.0
+JIRA-305,Implement search filters,To Do,Story,Medium,Bob,Sprint 3,2026-01-20T10:00:00Z,2026-01-20T10:00:00Z,,0.0
